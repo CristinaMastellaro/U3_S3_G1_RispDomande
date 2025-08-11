@@ -37,18 +37,6 @@ var totalLength = function (str1, str2) {
 // 8) Crea una variabile che possa contenere un numero, null o undefined.
 var myVar = 24;
 // ---------------------------------------------------------------
-// 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
-// Non ho capito la consegna
-var weekDay = [
-    "lunedì",
-    "martedì",
-    "mercoledì",
-    "giovedì",
-    "venerdì",
-    "sabato",
-    "domenica",
-];
-// ---------------------------------------------------------------
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
 var numbers = [1, 2, 3];

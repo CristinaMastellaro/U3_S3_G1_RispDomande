@@ -63,17 +63,14 @@ const myVar: number | null | undefined = 24;
 
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 
-// Non ho capito la consegna
-
-const weekDay: string[] = [
-  "lunedì",
-  "martedì",
-  "mercoledì",
-  "giovedì",
-  "venerdì",
-  "sabato",
-  "domenica",
-];
+type GiornoSettimana =
+  | "Lunedì"
+  | "Martedì"
+  | "Mercoledì"
+  | "Giovedì"
+  | "Venerdì"
+  | "Sabato"
+  | "Domenica";
 
 // ---------------------------------------------------------------
 
